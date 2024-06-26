@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Triangle Checker</h1>
+        <form id="triangleForm">
+            <label for="side1">Side 1:</label>
+            <input type="number" id="side1" name="side1" required min="1" step="1">
+            
+            <label for="side2">Side 2:</label>
+            <input type="number" id="side2" name="side2" required min="1" step="1">
+            
+            <label for="side3">Side 3:</label>
+            <input type="number" id="side3" name="side3" required min="1" step="1">
+            
+            <button type="submit">Check Triangle</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
